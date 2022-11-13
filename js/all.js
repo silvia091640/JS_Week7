@@ -6,7 +6,7 @@
     init();
     chartData();
    renderC3();
-  });
+  }).catch( (error) => console.log(error));
 
   let newChartData = [];
   const cardList=document.querySelector(".cardList");
