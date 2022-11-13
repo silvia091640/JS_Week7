@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+
+img{
+    display:block;
+    font-size: 0;
+}
+
+
+.addTicket-panel {
+    max-width: 920px;
+    margin: 50px auto 100px;
+    padding: 60px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #00000014;
+  }
+
+.addTicket-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addTicket-image, .addTicket-Content {
+    width: 45%;
+  }
+
+  .addTicket-image img {
+  
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+
+.title{
+    color: #21908E;
+    font-weight: bold;
+    border-bottom: 3px solid #21908E;
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-size: 17px;
+}
+
+
+.addTicket-Content{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+   
+}
+
+.form-group input,.form-group select,.form-group textarea {
+    width: 100%;
+
+}
+
+.form-group label{
+    width: 25%;
+    color: #21908E;
+    font-weight: bold;
+}
+
+.form-group input,textarea {
+    background: #FAFAFA;
+    border: none;
+    border-bottom: 2px solid #21908E;
+}
+
+.btnaddTicket
+{
+    text-align: right;
+}
+.btn-addTicket{
+    text-align: right;
+    display: inline-block;
+    background-color: #21908E;
+    padding: 15px 15px;
+    color:#FAFAFA;
+    font-size:medium;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.main-content{
+    background-color: #F7F7F7;
+    width: 100%;
+}
+
+.man-panel{
+    width: 60%;
+    margin: 0 auto;
+    padding:35px 0;
+}
+
+
+.result-searchInfo{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 40px;
+   
+}
+
+.result-searchInfo select {
+   /* margin: 0 50px ; */
+   width: 160px;
+   height: 20px;
+
+}
+.result-searchInfo p{
+    color: #818A91;
+
+}
+.cardList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card-item {
+    width: 32%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #00000014;
+    margin: 0 5px 30px 5px;
+
+}
+.card-img {
+    position: relative;
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-title {
+    margin-top: 10px;
+    border-bottom: 3px solid #21908E;
+}
+
+.card-title h1{
+ 
+    font-size: 20px;
+    color: #21908E;
+    font-weight: bold;
+}
+
+
+
+.card-location {
+    position: absolute;
+    top:-10px;
+    color: #FFF;
+
+}
+
+.card-star{
+    position: absolute;
+    top:180px;
+    color: #FFF;
+}
+.card-location p {
+   padding: 10px;
+   background-color:#64C3BF;
+   /* color:#000; */
+    
+}
+
+.card-star p {
+    padding:5px;
+    font-size: 10px;
+    background-color:#00807E;
+     
+ }
+
+.card-content p {
+    margin: 15px 0;
+    font-size: 15px;
+    color:#B8BDC1;
+}
+.care-program {
+    display: flex;
+    justify-content: space-between;
+}
+
+.care-program  p{
+    color: #21908E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-item-price{
+    font-size: 20px;
+}
+.searchArea-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchArea-content p {
+    width: 200px;
+}
+#chart {
+    margin-top: 50px;
+}
